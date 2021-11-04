@@ -3,8 +3,8 @@
 
 ## 一、注意
    - 我们提供的代码仅供参考，在确定符合使用场景、代码质量的情况下，酌情参考使用。
-   - 测试环境 apiHost 为 http://dev.beilypay.com
-   - 生产环境 apiHost 为 http://service.beilypay.com
+   - 测试环境 apiHost 为 https://dev.beilypay.com
+   - 生产环境 apiHost 为 https://service.beilypay.com
    - 测试对接参数，详见 test.py
 
 
@@ -18,7 +18,7 @@ from exceptions import BeilyException
 ## 三、构造SDK对象
 
 ```python
-beily = Beilypay("1183601355", 3, "8c62bd95169ba8818c676a6f2025b8e5", "http://dev.beilypay.com")
+beily = Beilypay("1183601355", 3, "8c62bd95169ba8818c676a6f2025b8e5", "https://dev.beilypay.com")
 ```
 
 ## 四、代收和查询
